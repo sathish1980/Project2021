@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46159" started-at="2021-05-10T21:55:09 IST" finished-at="2021-05-10T21:55:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46159" started-at="2021-05-10T21:55:09 IST" finished-at="2021-05-10T21:55:55 IST">
+      <class name="testcases.facebookloginandlogout">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="start" is-config="true" duration-ms="7795" started-at="2021-05-10T21:55:01 IST" finished-at="2021-05-10T21:55:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="loadurl()[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="loadurl" is-config="true" duration-ms="2325" started-at="2021-05-10T21:55:09 IST" finished-at="2021-05-10T21:55:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadurl -->
+        <test-method status="PASS" signature="loginandlogout(java.lang.String,java.lang.String)[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="loginandlogout" duration-ms="13064" started-at="2021-05-10T21:55:12 IST" data-provider="excel" finished-at="2021-05-10T21:55:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandlogout -->
+        <test-method status="PASS" signature="loginandlogout(java.lang.String,java.lang.String)[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="loginandlogout" duration-ms="15122" started-at="2021-05-10T21:55:25 IST" data-provider="excel" finished-at="2021-05-10T21:55:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandlogout -->
+        <test-method status="PASS" signature="loginandlogout(java.lang.String,java.lang.String)[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="loginandlogout" duration-ms="11887" started-at="2021-05-10T21:55:40 IST" data-provider="excel" finished-at="2021-05-10T21:55:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandlogout -->
+        <test-method status="PASS" signature="incorrectvalue()[pri:1, instance:testcases.facebookloginandlogout@4524411f]" name="incorrectvalue" duration-ms="2617" started-at="2021-05-10T21:55:52 IST" finished-at="2021-05-10T21:55:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectvalue -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.facebookloginandlogout@4524411f]" name="teardown" is-config="true" duration-ms="1847" started-at="2021-05-10T21:55:55 IST" finished-at="2021-05-10T21:55:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.facebookloginandlogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
